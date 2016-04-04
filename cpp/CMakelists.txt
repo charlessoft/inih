@@ -1,0 +1,4 @@
+set(LIB_SRC INIReader.cpp ../ini.c)
+add_library(inih ${LIB_SRC})
+set_target_properties(inih PROPERTIES OUTPUT_NAME "inih")
+SET(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR}/bin)
